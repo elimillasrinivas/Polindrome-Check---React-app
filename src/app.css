@@ -1,0 +1,104 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border: 1px solid #121212;
+    width: 50%;
+    height: 50vh;
+    margin-left: 23%;
+    /* background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%); */
+}
+.header{
+  background: -webkit-linear-gradient( #08a9df, #0a0005);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.inp-container{
+    padding: 15px;
+    display: flex;
+    width: 70%;
+}
+.inp-text{
+    border-color: blue;
+    width: 100%;
+    height: 4.5vh;
+    font-size: 20px;
+    border: 1px solid blue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.inp-text-btn{
+    border: none;
+    width: 25%;
+    height: 5vh;
+    background-color: blue;
+    color: white;
+    margin-left: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+.otp{
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.mark-container{
+    color: gray;
+    display: flex;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 600px) {
+    .header{
+  background: -webkit-linear-gradient( #08a9df, #0a0005);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: small;
+}
+.inp-text{
+    border-color: blue;
+    width: 100%;
+    height: 4.5vh;
+    font-size: small;
+    border: 1px solid blue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.inp-container{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.inp-text{
+    border-color: blue;
+    width: 100%;
+    height: 4vh;
+    border: 1px solid blue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.inp-text-btn{
+    border: none;
+    width: 25%;
+    height: 3.5vh;
+    background-color: blue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8px;
+    margin-top: 5px;
+    margin-left: auto;
+}
+.otp{
+    font-size: 8px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+}
