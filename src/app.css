@@ -58,7 +58,7 @@
 
 /* Media query */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     .header{
   /* background: -webkit-linear-gradient( #08a9df, #0a0005);
   -webkit-background-clip: text;
