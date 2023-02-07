@@ -5,7 +5,7 @@ function App() {
   const [otp,setOtp]=useState("")
   const [otpColor,setOtpColor]=useState("")
   const handlePolindrome=()=>{
-    if(inp.length===0){
+    if(inp===''){
     setOtp("Type a word/sentence")
     setOtpColor("red")
     }
