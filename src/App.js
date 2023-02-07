@@ -5,7 +5,10 @@ function App() {
   const [otp,setOtp]=useState("")
   const [otpColor,setOtpColor]=useState("")
   const handlePolindrome=()=>{
-    // console.log(inp);
+    if(inp.length===0){
+    setOtp("Type a word/sentence")
+    setOtpColor("red")
+    }
     let s1=inp.replace(/[^a-zA-Z0-9]/g,'').toLowerCase()
     let s2=''
     for(let i=s1.length-1;i>=0;i--){
@@ -20,8 +23,6 @@ function App() {
       setOtp("No, It is not a Polindrome.")
       setOtpColor("red")
     }
-    
-  setInp("")
   }
   return (
     <>
