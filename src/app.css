@@ -52,6 +52,9 @@
     margin-left: auto;
     margin-top: auto;
 }
+.otp-container{
+    margin-top: 10px;
+}
 
 /* Media query */
 
@@ -101,5 +104,8 @@
     margin-top: 10px;
     font-family: 'Courier New', Courier, monospace;
 
+}
+.otp-container{
+    margin-top: 10px;
 }
 }

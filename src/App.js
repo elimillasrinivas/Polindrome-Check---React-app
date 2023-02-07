@@ -40,7 +40,11 @@ function App() {
             Check
           </button>
         </div>
-        <h1 className="otp" style={{color:`${otpColor}`}}>{otp}</h1>
+        <div className='otp-container'>
+          <h1 className="otp" style={{ color: `${otpColor}` }}>
+            {otp}
+          </h1>
+        </div>
       </div>
     </>
   );
