@@ -32,6 +32,7 @@ function App() {
             type="text"
             className="inp-text"
             placeholder=" Enter a word/sentence "
+            required
             onChange={(e) => {
               setInp(e.target.value);
             }}
