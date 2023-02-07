@@ -18,7 +18,7 @@ function App() {
     }
     else{
       setOtp("No, It is not a Polindrome.")
-      setOtpColor("red")
+      setOtpColor("black")
     }
     
   setInp("")
