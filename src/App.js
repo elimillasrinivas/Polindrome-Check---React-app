@@ -5,10 +5,6 @@ function App() {
   const [otp,setOtp]=useState("")
   const [otpColor,setOtpColor]=useState("")
   const handlePolindrome=()=>{
-    if(inp===''){
-    setOtp("Type a word/sentence")
-    setOtpColor("red")
-    }
     let s1=inp.replace(/[^a-zA-Z0-9]/g,'').toLowerCase()
     let s2=''
     for(let i=s1.length-1;i>=0;i--){
@@ -43,6 +39,7 @@ function App() {
           </button>
         </div>
         <div className='otp-container'>
+          <p>You typed this {s1}</p>
           <h1 className="otp" style={{ color: `${otpColor}` }}>
             {otp}
           </h1>
